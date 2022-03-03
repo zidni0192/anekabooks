@@ -16,3 +16,5 @@ Type `npm start` on command prompt
 Home and list books `/`
 Book Purchased `/purchased`
 
+## Deployed site
+https://zen-almeida-d8fa79.netlify.app

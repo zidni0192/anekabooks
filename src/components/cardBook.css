@@ -1,0 +1,31 @@
+.card-container {
+    min-width: 300px;
+    width: 20%;
+    margin: 30px 6%;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-container img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.card-container .card-detail {
+    padding: 0px 20px;
+}
+
+.card-container a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.card-container button {
+    max-width: 100%;
+    padding: 15px;
+    font-size: large;
+    margin: 20px;
+}

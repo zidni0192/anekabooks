@@ -1,0 +1,6 @@
+.balance{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding: 20px;
+}

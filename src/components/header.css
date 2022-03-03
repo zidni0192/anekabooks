@@ -1,0 +1,26 @@
+header {
+    background-color: #ddd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+    font-family: sans-serif;
+    min-width: 300px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .menu a {
+    padding: 10px;
+}

@@ -79,13 +79,13 @@ export default class Home extends Component {
             <Fragment>
                 <Header />
                 <SearchBar onChangeQuery={this.onChangeQuery} onSearch={this.onSearch} />
-                <div className="balance">
-                    Balance : {this.state.balance}
-                </div>
                 {this.state.loading ? (
                     <Loading />
                 ) : (
                     <Fragment>
+                        <div className="balance">
+                            Balance : {this.state.balance}
+                        </div>
                         <BookList books={this.state.books} onBuy={this.onBuy} purchased={this.state.purchased} />
                         {this.state.nextPage && (
                             <Loading />

@@ -45,14 +45,14 @@ export default function Detail() {
     return (
         <Fragment>
             <Header />
-            <div className="balance">
-                Balance : {balance}
-            </div>
             {
                 loading ? (<Loading />) :
                     data.id ?
                         (
                             <div className="detail-container">
+                                <div className="balance">
+                                    Balance : {balance}
+                                </div>
                                 <div>
                                     <img src={imageLinks?.thumbnail} alt={title} />
                                     <div className="card-detail">
